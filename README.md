@@ -88,23 +88,26 @@ The following charts are exported from the project notebook and can be viewed di
 
 ### Monthly Churn Trend
 
-![Monthly churn trend](churn_readme_assets/monthly_churn_trend.png)
+<img width="692" height="316" alt="monthly_churn_trend" src="https://github.com/user-attachments/assets/6b70bb86-f189-4c49-b949-66ccf9189011" />
+
 
 ### Churn Rate by Plan Type
 
-![Churn rate by plan type](churn_readme_assets/churn_rate_by_plan.png)
+<img width="613" height="393" alt="churn_rate_by_plan" src="https://github.com/user-attachments/assets/c43d14d5-9fe2-411a-9d8c-b148d6f4b85c" />
+
 
 ### Churn by State
+<img width="1001" height="457" alt="churn_by_state" src="https://github.com/user-attachments/assets/63bb16cf-39d0-417f-850d-c3388839f21e" />
 
-![Churn by state](churn_readme_assets/churn_by_state.png)
 
 ### Correlation Heatmap
 
-![Correlation heatmap](churn_readme_assets/correlation_heatmap.png)
+<img width="700" height="590" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/154cd80e-9299-4181-8261-81951ed00c71" />
 
 ### Monthly Charges by Plan, Gender, and Churn Risk
 
-![Monthly charges by plan, gender, and churn risk](churn_readme_assets/monthly_charges_by_plan_and_risk.png)
+<img width="1594" height="490" alt="monthly_charges_by_plan_and_risk" src="https://github.com/user-attachments/assets/df3272ed-9e4f-4191-9299-dbdccb7d0653" />
+
 
 ## Key Findings
 
@@ -163,16 +166,6 @@ Open `churn_analysis.ipynb` and run the cells in order.
 
 The notebook creates the SQLite database and exports the merged analysis dataset as `exported_churn_data.csv`.
 
-## Project Files
-
-```text
-.
-├── churn_analysis.ipynb
-├── customer_churn_data_raw.xlsx   # required input; not included by default
-├── customer_churn.db              # generated SQLite database
-├── exported_churn_data.csv        # generated merged dataset
-└── README.md
-```
 
 ## Skills Demonstrated
 
@@ -180,4 +173,3 @@ SQL data extraction, SQLite database management, data cleaning, data preprocessi
 
 ---
 
-**Disclaimer:** This project performs churn analysis and risk segmentation using an existing churn score. It does not train or evaluate a machine-learning churn prediction model.
